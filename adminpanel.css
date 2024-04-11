@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/college.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+
+
+}
+
+header {
+    display: flex;
+    background-color: #bb1c1c;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header h1{
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.logo {
+    float: left;
+    /* width: 200px;
+    height: auto; */
+}
+.logo img{
+    height: auto;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  margin-top: 30x;
+  background-color: white;
+  margin-left: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 6px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    
+   
+    
+}
+/* Style the dropdown button and container */
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bb1c1c;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li a{
+    font-size: small;
+}
+
+
+/* Add more styles based on your design preferences */

@@ -1,0 +1,174 @@
+
+html,
+body {
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.container {
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-start; /* Align items to the start of the flex container */
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px rgb(227, 217, 217);
+    margin: 50px auto; /* Adjusted margin to center vertically */
+    background-color: white;
+    max-height: calc(100vh - 80px); /* Adjusted maximum height based on viewport height and navbar height */
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.user-input-box input,
+.user-input-box select {
+    height: 40px; /* Adjusted input height */
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+
+
+.container {
+  
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.navbar + .container {
+    margin-top: 56px; /* Adjusted margin top to account for navbar height */
+}
+
+h4 {
+    margin-bottom: 20px; /* Added margin bottom to the heading */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Added margin bottom to the form groups */
+}
+
+.btn {
+    width: 100%; /* Adjusted width of the button */
+}
+
+
+
+
+
+
+
+/* .container {
+    max-width: 600px;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px rgb(227, 217, 217);
+    margin: 0 auto;
+   
+} */
+
+.FormTitle {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(17, 177, 241);
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-input-box {
+    width: 48%; /* Adjusted width */
+    margin-bottom: 15px;
+}
+
+.user-input-box label {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.user-input-box select,
+.user-input-box input {
+    height: 30px;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.gender-details-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gender-title {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.gender-category {
+    margin: 15px 0;
+    color: black;
+    cursor: default;
+}
+
+.gender-category label {
+    padding: 0 20px 0 5px;
+}
+
+.Form-submit-btn {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Form-submit-btn input {
+    width: 48%; /* Adjusted width */
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    background: rgb(17, 177, 241);
+}
+
+.button {
+    margin: 0 10px; /* Adjusted margin */
+}

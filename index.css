@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* .navbar {
+    background-color: #bb1c1c !important;
+  } */
+
+  
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  
+  
+  .hero-section {
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(images/college.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(images/college.jpg)!important;
+    background-size: cover;
+    /* color: #fff; */
+    text-align: center;
+    /* margin-top: 1000px; */
+    padding: 150px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  #about{
+    /* background-color: grey; */
+  }
+  .all{
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(images/img-placements.jpg)!important; */
+    /* background-image: url(images/img-7_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  
+  /* .btn-primary {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+  } */
+  
+ /* .btn-primary:hover {
+    background-color: #218838 !important;
+    border-color: #218838 !important;
+  }  */
+  
+  .features-section {
+    /* background-color: #f8f9fa; */
+    padding: 50px 0;
+  }
+  
+  .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item i {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  #contact{
+   background-image: url(images/CAT-Admission-2022.jpg)!important;
+  }
+  #contact .container {
+    border: 1px solid #ddd; /* Add border */
+    /* background-color: #fff; Add white background color */
+    padding: 10px; /* Add some padding for spacing */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+    max-width: 700px;
+}
+
+
+  
+  /* Add any additional styles here */
+  

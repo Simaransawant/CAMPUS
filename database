@@ -1,0 +1,79 @@
+ Step 1
+ create database
+ create database campus;
+ 
+ step 2
+ create all the table required for the project below
+
+
+ student registration TABLE
+
+CREATE TABLE  student (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+    FullName varchar(250),
+    UserName varchar(250),
+    Studentemail varchar(250),
+    PhoneNumber varchar(250),
+    DateOfBirth varchar(250),
+    Password varchar(250),
+    ConfirmPassword varchar(250),
+    EnrolmentNo varchar(250),
+    yearLevel varchar(250),
+    degreeProgram varchar(250),
+    Gender varchar(10)
+    
+);
+
+
+
+ Admin registration TABLE
+
+CREATE TABLE  admin (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+    username varchar(250),
+    password varchar(250),
+    confirm-password varchar(250)
+);
+
+  Notification TABLE
+
+CREATE TABLE  addnotifications (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+    title varchar(250),
+    date varchar(250),
+    time varchar(250),
+    content varchar(250)
+);
+
+  feedback TABLE
+
+CREATE TABLE  feedback (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+   name varchar(250),
+    email varchar(250),
+    time varchar(250),
+    message varchar(250)
+);
+
+  jobs TABLE
+
+CREATE TABLE  jobs (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+    companyName varchar(250),
+    jobCategory varchar(250),
+    noOfVacancy varchar(250),
+    SelectExperience varchar(250),
+    postedDate varchar(250),
+    lastDateToApply varchar(250),
+    SalaryFrom varchar(250),
+    Location varchar(250)
+);
+
+applied jobs TABLE
+
+CREATE TABLE applied_jobs (
+    id int AUTO_INCREMENT PRIMARY KEY ,
+    job_id varchar(250),
+    s_username varchar(250),
+    created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
